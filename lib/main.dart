@@ -122,6 +122,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
           ),
           Row(
             children: [
+              _buildButton('%'),
               _buildButton('C', color: Colors.red),
             ],
           ),
